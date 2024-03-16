@@ -1,11 +1,15 @@
-[web_servers]
-192.168.56.101
-192.168.56.104
+[workstations]
+192.168.56.102 #server1
+
+[web_servers] 
+192.168.56.101 #ManagedNode
+192.168.56.104 #CentOS
 
 [db_servers]
-192.168.56.103
-192.168.56.104
+192.168.56.103 #server2
+192.168.56.104 #CentOS
 
-[file_servers]
-192.168.56.102
+[file_servers] 
+192.168.56.102 #server1
+
 
